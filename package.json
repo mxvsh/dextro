@@ -1,0 +1,14 @@
+{
+  "name": "dextro",
+  "scripts": {
+    "dev:web": "lerna run dev --scope web",
+    "build:web": "lerna run build --scope web",
+    "dev:core": "lerna run dev --scope core"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-run": "^1.7.1",
+    "gulp-uglify": "^3.0.2",
+    "lerna": "^4.0.0"
+  }
+}
